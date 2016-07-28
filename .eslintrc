@@ -7,12 +7,34 @@
     "mocha": true
   },
   "parserOptions": {
-	"ecmaVersion": 6,
-    "sourceType": "module"
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
   },
   "rules": {
+    "max-len": ["error", {
+      "code": 140,
+      "tabWidth": 2,
+      "comments": 140,
+      "ignoreUrls": true
+    }
+    ],
     "keyword-spacing": 2,
-    "indent": [2, 2, {"VariableDeclarator": { "var": 2, "let": 2, "const": 3}, "SwitchCase": 1}],
+    "indent": [
+      2,
+      2,
+      {
+        "VariableDeclarator": {
+          "var": 2,
+          "let": 2,
+          "const": 3
+        },
+        "SwitchCase": 1
+      }
+    ],
     "semi": [2, "always"],
     "no-console": 0,
     "space-before-blocks": 2,
