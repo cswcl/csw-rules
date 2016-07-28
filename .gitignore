@@ -1,0 +1,20 @@
+# Dependency directory
+node_modules
+
+# npm debug
+npm-debug.log*
+
+# Confidential information for configuration (CSW convention)
+config/local.*
+!config/local.example.*
+
+# Compiled sources
+build
+
+# Environment secrets
+config/.env
+
+# Common directories used at CSW to hold stuff not required to go into repo
+tmp
+data
+uploads
