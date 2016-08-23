@@ -38,7 +38,10 @@
     "semi": [2, "always"],
     "no-console": 0,
     "space-before-blocks": 2,
-    "quotes": [2, "single"],
+    "quotes": [2, "single", {
+      "allowTemplateLiterals": true,
+      }
+     ],
     "space-infix-ops": 2,
     "comma-dangle": ["error", "only-multiline"],
     "strict": ["error", "global"],
