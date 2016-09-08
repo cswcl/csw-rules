@@ -6,14 +6,6 @@
     "es6": true,
     "mocha": true
   },
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "script",
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "jsx": true
-    }
-  },
   "rules": {
     "max-len": ["error", {
       "code": 140,

@@ -1,0 +1,14 @@
+{
+  "extends": "../.eslintrc",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  }
+}
