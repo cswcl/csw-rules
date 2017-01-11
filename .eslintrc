@@ -30,6 +30,7 @@
     "semi": [2, "always"],
     "no-console": 0,
     "space-before-blocks": 2,
+    "prefer-template": "error",
     "quotes": [2, "single", {
       "allowTemplateLiterals": true,
       }
