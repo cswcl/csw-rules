@@ -37,6 +37,7 @@
      ],
     "space-infix-ops": 2,
     "comma-dangle": ["error", "only-multiline"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
     "strict": ["error", "global"],
     "curly": ["error", "all"],
     "no-var": "error",
