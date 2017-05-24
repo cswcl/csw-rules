@@ -6,6 +6,9 @@
     "es6": true,
     "mocha": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
   "rules": {
     "max-len": ["error", {
       "code": 140,
