@@ -44,6 +44,7 @@
     "strict": ["error", "global"],
     "curly": ["error", "all"],
     "no-var": "error",
-    "one-var": ["error", "never"]
+    "one-var": ["error", "never"],
+    "no-buffer-constructor": true
   }
 }
