@@ -45,6 +45,6 @@
     "curly": ["error", "all"],
     "no-var": "error",
     "one-var": ["error", "never"],
-    "no-buffer-constructor": true
+    "no-buffer-constructor": 2
   }
 }
