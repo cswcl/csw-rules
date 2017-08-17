@@ -41,6 +41,14 @@
     "space-infix-ops": 2,
     "comma-dangle": ["error", "only-multiline"],
     "comma-spacing": ["error", { "before": false, "after": true }],
+    "no-trailing-spaces": "error",
+    "no-irregular-whitespace": ["error", {
+      "skipStrings": true,
+      "skipComments": true,
+      "skipRegExps": true,
+      "skipTemplates": true
+      }
+    ],
     "strict": ["error", "global"],
     "curly": ["error", "all"],
     "no-var": "error",
