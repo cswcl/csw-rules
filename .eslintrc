@@ -9,6 +9,13 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "8"
+      }
+    }]
+  ],
   "rules": {
     "max-len": ["error", {
       "code": 140,
