@@ -56,6 +56,7 @@
       "skipTemplates": true
       }
     ],
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "strict": ["error", "global"],
     "curly": ["error", "all"],
     "no-var": "error",
