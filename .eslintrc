@@ -9,6 +9,13 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
   "rules": {
     "max-len": ["error", {
       "code": 140,
@@ -41,6 +48,15 @@
     "space-infix-ops": 2,
     "comma-dangle": ["error", "only-multiline"],
     "comma-spacing": ["error", { "before": false, "after": true }],
+    "object-curly-spacing": ["error", "always", {
+      "objectsInObjects": false,
+      "arraysInObjects": false
+    }],
+    "array-bracket-spacing": ["error", "always", {
+      "singleValue": true,
+      "objectsInArrays": false,
+      "arraysInArrays": false
+    }],
     "no-trailing-spaces": "error",
     "no-irregular-whitespace": ["error", {
       "skipStrings": true,
@@ -49,6 +65,7 @@
       "skipTemplates": true
       }
     ],
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "strict": ["error", "global"],
     "curly": ["error", "all"],
     "no-var": "error",
